@@ -1,0 +1,1307 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sens-serif;
+}
+
+/* display or not to display resume form */
+
+#resume-form, #resume, #header, #about_us, #faq , #availableRT ,#footer{
+    /* display: none; */
+}
+
+/* display or not to display resume template */
+
+#resume-template, #resume-template-one, #resume-template-two, #resume-template-three ,
+#resume-template-four, #resume-template-five, #resume-template-six{
+    display: none;
+}
+
+/* .container{
+    padding: 5rem;
+} */
+/* main home section */
+
+/* .main_container{
+    border: 2px solid red;
+    height: 100vh;
+    
+}
+
+.rightcol, .leftcol{
+    border: 2px solid green;
+}
+*/
+
+#header {
+    height: 100vh;
+    /* background-color: black; */
+    background: #360033;
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);
+    background: linear-gradient(to right, #0b8793, #360033);
+    /* background: #948E99;
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99);
+    background: linear-gradient(to right, #2E1437, #948E99); */
+}
+
+.main-container {
+    display: flex;
+    justify-content: end;
+    height: 92%;
+    margin: 0 6rem;
+    /* border: 2px solid white; */
+}
+
+.header-text {
+    width: 35%;
+    margin-top: 125px;
+    /* border: 2px solid yellow; */
+    margin-top: 4.3rem;
+}
+
+.header-text h1 {
+    font-weight: 700;
+    font-size: 5.5rem;
+}
+.header-text a{
+    text-decoration: none;
+}
+
+.header-text p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2.2rem;
+}
+
+#imgdiv {
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 87.5vh;
+    margin-top: 1.8rem;
+}
+
+.homeimg {
+    width: 70%;
+    height: 91%;
+    margin-left: 11rem;
+    margin-top: 3rem;
+}
+
+h1 {
+    /* color: white; */
+    color: #FBE06D;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p {
+    color: #777;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.square {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #FBE06D;
+    display: inline-block;
+    margin: 15px 0;
+    margin-top: 5rem;
+}
+
+.common-btn {
+    /* border: 2px solid #FBE06D; */
+    background-color: #FBE06D;
+    outline: none;
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+
+.common-btn:hover {
+    /* border: 2px solid #FBE06D; */
+    background-color: white;
+    color: #360033;
+}
+.common-btn a {
+    color: blue;
+    
+}
+
+
+
+.header-text button {
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+.header-text h1 a {
+    color: #FBE06D;
+}
+
+.line-1 {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-color: #FBE06D;
+}
+
+.line-2 {
+    display: inline-block;
+    width: 5rem;
+    height: 1px;
+    background-color: #FBE06D;
+}
+
+.line-3 {
+    display: inline-block;
+    width: 4rem;
+    height: 1px;
+    background-color: #FBE06D;
+}
+
+.line {
+    line-height: 10px;
+}
+
+.navbar {
+    padding-top: 0px;
+}
+
+.navbar ul {
+    /* background-color: rgb(19, 19, 19); */
+    display: flex;
+    width: 100vw;
+    /* border: 2px solid red; */
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin-top: 0.8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navbar ul li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #FBE06D;
+    border: none;
+    font-weight: 500;
+}
+.navbar ul li a:hover {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li{
+    border: none;
+}
+.navbar ul li:hover {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* About Us page */
+
+#about_us {
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.about_page{
+    padding-top: 2rem;
+ 
+}
+.about_page p{
+    color: white;
+    font-size: 1.35rem;
+    line-height: 3rem;
+    text-align: center;
+ 
+}
+.about_page h2{
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: center;
+ 
+}
+
+.companyimg{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+.companyimg img{
+   width:8%;
+   /* filter: grayscale(100%); */
+   filter: contrast(0.1);
+
+   height: 8%;
+}
+.companyimg img:hover{
+    filter: none;
+ }
+
+
+/* faq section */
+
+#faq{
+
+    background: #360033;
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);
+    background: linear-gradient(to right, #0b8793, #360033);
+
+
+}
+#faq hr{
+    color: #FBE06D;
+}
+.qna p{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    
+}
+.ques{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.qna li{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+/* Available resume template goes here */
+
+#availableRT{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.rt{
+    height: 100vh;
+    width: 100%;
+}
+.resumeTemplateEg{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+    
+}
+.resumeTemplateAnimateDiv{
+    width: 30%;
+    height: 80%;
+    border: 2px solid red;
+    outline: 2px solid #FBE06D;
+    outline-offset:3px ;
+    background-size: cover;
+    position: absolute;
+   
+    background-image: url('images/resume-template-1.jpg');
+    background-size: 100% 100%;
+    
+    animation: resumeTemplateAnimate 25s infinite linear;
+
+    
+}
+.resumeTemplateAnimateDiv:hover{
+    transform: scale(1.8);
+    animation-play-state: paused;
+
+    
+}
+
+@keyframes resumeTemplateAnimate{
+    0%{
+        background-image: url(./images/resume-template-1-crop.jpg);
+        
+    }
+    20%{
+        background-image: url(./images/resume-template-2-crop.jpg);
+    }
+    40%{
+        background-image: url(./images/resume-template-3-crop.jpg);
+    }
+    60%{
+        background-image: url(./images/resume-template-4-crop.jpg);
+    }
+    80%{
+        background-image: url(./images/resume-template-5-crop.jpg);
+    }
+    
+}
+
+ 
+
+#resumeImageGallery{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+#resumeImageGallery h1{
+    text-align: center;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+}
+ .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+     display: flex;
+ }  
+ /* .myCarouselDiv{
+    display: flex;
+    justify-content: center;
+    color: orange;
+    width: 100vw;
+ } */
+ .myCarouselDiv .carousel-item img{
+    width: 33vw;
+    height: 85vh;
+    border: 2px solid red;
+ }
+
+
+/* Footer section */
+
+#footer{
+    padding-top: 2rem;
+    margin-top: 2rem;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.footerdiv{
+    display: flex;
+    justify-content: start;
+    /* border: 2px solid #ffffff; */
+}
+.footerdiv p{
+    color: greenyellow;
+    line-height: 1.7rem;
+}
+.footerdiv ul li a{
+    color: greenyellow;
+    line-height: 1.7rem;
+    text-decoration: none;
+}
+.footerAboutDiv{
+    flex-basis: 33%;
+    /* border: 2px solid rgb(184, 0, 0); */
+}
+.footerIMPLinksDiv{
+    flex-basis: 33%;
+    /* border: 2px solid rgb(36, 201, 168); */
+}
+.footerIMPLinksDiv h3{
+    margin-left: 30px;
+}
+.footerContactDiv{
+    flex-basis: 33%;
+    /* border: 2px solid rgb(202, 62, 62); */
+}
+#footer h3{
+    color: wheat;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+.copyright{
+    background-color: black;
+    height: 5vh;
+}
+.copyright p{
+    line-height: 2rem;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Other than home page */
+
+/* Left side name font weight bolt */
+
+/*  Template 1 */
+.Template1Heading h3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: yellowgreen;
+    margin-left: 7rem;
+}
+
+#nameT1 {
+    
+    font-weight: bold;
+    
+}
+#leftT1 {
+    font-weight: bold; 
+}
+#leftT1  p, li {
+    color: black;
+}
+
+#leftT1 a {
+    
+    word-wrap: break-word;
+    
+}
+#rightT1 {
+    background-color: #0f0c29;
+    font-weight: bold;
+    
+}
+#rightT1 p,li{
+   color: #ffffff; 
+   margin-left: 5rem; 
+   font-weight: 300;
+}
+
+.myimg {
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+#homeBg {
+    background-color: rgb(193, 253, 255);
+}
+
+
+.fa-facebook-square, .fa-linkedin-square {
+    color: blue;
+}
+
+.fa-envelope-square {
+    color: red;
+}
+
+.fa-phone {
+    color: green;
+}
+
+#template_no_1 li, p{
+    color: #fff;
+}
+
+#temp_1_obj_para{
+    padding-left: 2rem;
+}
+
+#objectiveT{
+    color: white;
+    padding-left: 7rem;
+    font-weight: normal;
+}
+
+
+/* for template-2 coloring */
+#leftT2 {
+    background-color: rgb(235, 193, 255);
+}
+#rightT2{
+    background-color: rgb(235, 193, 255);
+}
+
+#downT2 {
+    background-color: #0f0c29;
+}
+#downT2 h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+#downT2 li {
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    margin-left: 15rem;
+    font-size: 1rem;
+}
+#downT2 h3 {
+    margin-left: 5rem;
+    color: rgb(209, 241, 133);
+    font-size: 1rem;
+}
+#downT2 p {
+    font-weight: 300;
+}
+
+
+#rightT2 p, li{
+    color: black;
+}
+#objectiveT p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    
+}
+#objectiveT-two{
+    
+    color: white;
+    padding-left: 16rem;
+    font-weight: normal;
+    
+}
+
+#temp_2_obj_para p{
+    padding-left: 5rem;
+    color: #fff;
+}
+#rightT2 {
+    font-weight: bold; 
+}
+#rightT2  p, li {
+    color: black;
+}
+
+.temp_2_print_btn:hover{
+    background-color: #D1F185;
+    color: #0f0c29;
+}
+.temp_2_print_btn{
+    background-color: white;
+    color: #0f0c29;
+}
+
+
+/* template 3 colouring */
+#leftT3 {
+    background-color: rgb(241, 238, 135);
+    padding-left: 3.2rem;
+}
+#rightT3{
+    background-color:rgb(241, 238, 135);
+}
+
+#downT3 {
+    background-color: rgb(228, 226, 241);
+}
+#downT3 h3 {
+    color: #0b8793;
+    font-size: 1rem;
+    margin-left: 5rem;
+}
+#downT3 p{
+    color: black;
+    font-size: 1rem;
+}
+#downT3 li {
+    color: black;
+    font-size: 1rem;
+    margin-left: 15rem;
+}
+
+#leftT3 p, li{
+    color: black;
+}
+#leftT3 {
+    font-weight: bold; 
+}
+
+#temp_3_obj_para{
+    padding-left: 5rem;
+}
+#objectiveT-three{
+    
+    padding-left: 16rem;
+    font-weight: normal;
+    
+}
+#resume-template-three h3{
+    font-weight: bold;
+}
+/* template 4 colouring */
+#leftT4 {
+    background-color: rgb(39, 255, 179);
+    padding-left: 3.2rem;
+    font-weight: bold;
+}
+#leftT4 p, li {
+    color: black;
+}
+
+#rightT4{
+    background-color: rgb(39, 255, 179);
+}
+.backgroundT4 {
+    background-color: rgb(236, 255, 154);
+}
+#downLeftT4,#downRightT4 {
+    background-color: rgb(148, 148, 159);
+}
+.backgroundHT4
+{
+    background-color: rgb(148, 148, 159);
+}
+/* .card-body p, li{
+    color: black;
+}
+#leftT4 p, li{
+    color: black;
+} */
+
+#resume-template-four li{
+    color: black;
+}
+
+/* template5 colouring  */
+
+
+#leftT5 {
+    background-color: rgb(82, 255, 238);
+}
+#rightT5{
+    background-color: rgb(82, 255, 238);
+    font-weight: bold;
+}
+.backgroundT5 {
+    background-color: rgb(82, 255, 238);
+}
+#downLeftT4,#downRightT4 {
+    background-color: rgb(82, 255, 238);
+}
+.backgroundHT5
+{
+    background-color: rgb(236, 255, 154);
+}
+#rightT5 p, li{
+    color: black;
+}
+
+textarea{
+    color: #fff;
+}
+.card-body p, li{
+    color: black;
+}
+
+#resume-template-five li{
+    color: black;
+}
+
+
+
+
+/* Template 6 */
+.template-6-bg{
+    background-color: teal;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.template-6-bg p{
+    color: white;
+    font-size: 30px;
+}
+.template-6-profile img{
+    margin-left: 38px;
+}
+.leftcol p,li{
+    color: teal;
+    font-weight: bold;
+}
+
+#temp_6_right_side h3{
+    background-color: teal;
+    color: white;
+    display: block;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 6px;
+    font-size: 1.2rem;
+}
+#temp_6_right_side p, li{
+    
+    color: white;
+    font-weight: normal;
+    
+}
+#objectiveT-six{
+    color: white;
+    padding-left: 6rem;
+}
+
+.leftcol{
+    background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.rightcol{
+    background: #42275a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+.temp_6_skills h3{
+    background-color: teal;
+    color: white;
+    display: block;
+    display: block;
+    border-radius: 16px;
+    padding: 6px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#skT-six li{
+   color: teal;
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+   word-wrap: break-word;
+}
+
+
+
+
+#resume-template-six a{
+    color: teal;
+}
+
+
+
+/* Media Queries */
+
+
+/* small screen and small laptops */
+@media  screen and (min-width:769px) and  (max-width:1024px)
+{
+    #header{
+        height: auto;
+        background: #360033;
+        background: -webkit-linear-gradient(to right, #0b8793, #360033);
+        background: linear-gradient(to right, #0b8793, #360033);
+        border: 2px solid green;
+       
+    }
+
+    .main-container {
+        
+        justify-content: end;
+        margin: 0;
+        
+        /* border: 2px solid pink; */
+    }
+    
+    .header-text {
+    width: 50%;
+    /* border: 2px solid yellow; */
+    margin-top: 4rem;
+    }
+
+    .header-text h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    }
+
+    .square {
+    margin: 30px 0;
+    margin-top: 84px;
+    }   
+  
+
+    .common-btn {
+    
+    align-items: center;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+    /* margin-left: 17rem; */
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;
+    }
+
+
+    #imgdiv {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 82vh;
+    margin-top: 1.8rem;
+
+
+
+    }
+
+
+    .homeimg {
+    width: 60%;
+    height: 90%;
+    margin-left: 6rem;
+    margin-top: 3rem;
+    }
+
+    /* Available resume template goes here */
+
+    .resumeTemplateAnimateDiv{
+    width: 50%;
+    height: 86%;
+    
+    }
+}
+
+
+/* ipad and tablets */
+
+@media  screen and (min-width:481px) and  (max-width:768px)
+{
+    #header{
+        height: auto;
+        background: #360033;
+        background: -webkit-linear-gradient(to right, #0b8793, #360033);
+        background: linear-gradient(to right, #0b8793, #360033);
+        /* border: 2px solid green; */
+       
+        
+       
+    }
+
+    .main-container {
+        
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        
+        /* border: 2px solid pink; */
+    }
+    
+    .header-text {
+    width: 100%;
+    /* border: 2px solid yellow; */
+    margin-top: 4rem;
+    }
+
+    .header-text h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    }
+
+    .square {
+    margin: 12px 0;
+   
+    }   
+  
+
+    .common-btn {
+    
+    align-items: center;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+    /* margin-left: 17rem; */
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;
+    margin-left: 7rem;
+    }
+
+
+    #imgdiv {
+    /* border: 2px solid red; */
+    width: 100%;
+    }
+    .homeimg {
+        width: 70%;
+        height: 96%;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+
+
+    /* Available resume template goes here */
+
+    .resumeTemplateAnimateDiv{
+    width: 57%;
+    height: 75%;
+    
+    }
+    .rt{
+        height: 93vh;
+        width: 100%;
+    }
+    .rt h1{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    
+}
+
+
+
+/* Mobile Devices */
+
+@media  screen and (min-width:320px) and  (max-width:480px)
+{
+    
+    .navbar ul {
+        justify-content: space-around;
+    }
+    
+    .navbar ul li {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    .navbar ul li a {
+        font-size: 0.8rem;
+    }
+
+
+
+
+    #header{
+        height: auto;
+        background: #360033;
+        background: -webkit-linear-gradient(to right, #0b8793, #360033);
+        background: linear-gradient(to right, #0b8793, #360033);
+        /* border: 2px solid green;    */
+        
+       
+    }
+
+    .main-container {
+        
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        
+        /* border: 2px solid pink; */
+    }
+    
+    .header-text {
+        width: 100%;
+    /* border: 2px solid yellow; */
+    margin-top: 1rem;
+    }
+
+    .header-text h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    }
+    .header-text p {
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+    }
+
+    .square {
+    margin: 12px 0;
+   
+    }   
+  
+
+    .common-btn {
+    margin-left: 2rem;
+    }
+
+
+    #imgdiv {
+    /* border: 2px solid red; */
+    width: 100%;
+    }
+    .homeimg {
+        width: 100%;
+        height: 96%;
+        margin-left: 0rem;
+        margin-top: 0px;
+        padding: 13px;
+    }   
+    
+
+/* aBOUT Page */
+
+.about_page h1{
+    font-size: 2rem;
+}
+.about_page p{
+    font-size: 1rem;
+    padding: 5px;
+    line-height: 2rem;
+    text-align: center;
+ 
+}
+.about_page h2{
+    font-size: 1.8rem;
+ 
+} 
+
+
+.companyimg{
+    margin-top: 2rem;
+}
+.companyimg img{
+   width:12%;
+}
+
+/* faq section */
+
+#faq{
+    padding-top: 20px;
+    
+}
+#faq h1{
+    font-size: 1.8rem;
+    
+}
+
+.qna{
+    
+    padding-bottom: 20px;
+}
+.qna p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    
+}
+.ques{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.qna li{
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+
+
+    /* Available resume template goes here */
+
+    .resumeTemplateAnimateDiv{
+    width: 70%;
+    height: 75%;
+    
+    }
+    .rt{
+        height: 93vh;
+        width: 100%;
+        
+    }
+    #availableRT{
+        padding-bottom: 5rem;
+    }
+    
+    .rt h1{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+
+    /* Resume Form */
+    #resume-form{
+    padding-top: 20px;
+    }
+
+    #resume-form h1{
+        font-size: 2rem;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        
+    }
+   
+
+
+    /* Footer */
+
+    .footerdiv{
+    
+        flex-direction: column;
+    }
+    
+    .footerIMPLinksDiv h3{
+        margin-left: 0px;
+    }
+  
+
+    .footerdiv p{
+        color: greenyellow;
+        line-height: 1.7rem;
+    }
+    .footerdiv ul li a{
+        line-height: 1.1rem;
+    }
+    .footerAboutDiv{
+        
+        padding-bottom: 15px;
+    }
+    .footerIMPLinksDiv{
+        padding-bottom: 15px;
+    }
+
+    .footerContactDiv{
+        padding-bottom: 15px;
+    }
+    #footer h3{
+        color: wheat;
+        font-size: 1.1rem;
+        font-weight: bold;
+    
+    }
+    
+    
+.copyright{
+    background-color: black;
+    height: 7vh;
+    padding-bottom: 54px;
+}
+.copyright p{
+    line-height: 1.45rem;
+    color:white;
+}
+
+}
+
+
+
+
+
+
+
+/* media query for printing  */
+
+@media print {
+    *{
+        box-sizing: border-box;
+    }
+    #myPrntbtn ,.templateNo {
+        display: none;
+    }
+
+    /* template 1 */
+    
+    @page :left {
+    margin-left: 0;
+    }
+  
+    @page :right {
+    margin-left: 0;
+    }
+    
+    @page {
+    size: 33cm 33cm;
+    }
+  
+  
+
+    #leftT1{
+        
+        width: 35%;
+        float: left;
+    }
+
+    #rightT1{
+      
+        width: 65%;
+        float: right;
+    }
+    .Template1Heading h3{
+        margin-left: 0rem;
+    }
+    
+
+    #leftT2{
+        width: 45%;
+        float: left;
+    }
+
+    #rightT2{
+        width: 55%;
+        float: right;
+    }
+    #downT2{
+        width: 100%;
+    }
+
+    #leftT3{
+        width: 55%;
+        float: left;
+    }
+
+    #rightT3{
+        width: 45%;
+        float: right;
+    }
+    #downT3{
+        width: 100%;
+    }
+
+    #leftT4{
+        width: 55%;
+        float: left;
+    }
+
+    #rightT4{
+        width: 45%;
+        float: right;
+    }
+    #downLeftT4{
+        width: 50%;
+        float: left;
+    }
+
+    #downRightT4{
+        width: 50%;
+        float: right;
+    }
+
+
+    #leftT5{
+        width: 45%;
+        float: left;
+    }
+
+    #rightT5{
+        width: 55%;
+        float: right;
+    }
+    #downLeftT5{
+        width: 50%;
+        float: left;
+    }
+
+    #downRightT5{
+        width: 50%;
+        float: right;
+    }
+}
+
