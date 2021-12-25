@@ -1,4 +1,4 @@
-
+/* Home Page, FAQ */
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 
 /* display or not to display resume form */
 
-#resume-form, #resume, #header, #about_us, #faq , #availableRT ,#footer{
+#resume-form,#resume, #header, #about_us, #faq , #availableRT ,#footer{
     /* display: none; */
 }
 
@@ -20,21 +20,7 @@
     display: none;
 }
 
-/* .container{
-    padding: 5rem;
-} */
-/* main home section */
 
-/* .main_container{
-    border: 2px solid red;
-    height: 100vh;
-    
-}
-
-.rightcol, .leftcol{
-    border: 2px solid green;
-}
-*/
 
 #header {
     height: 100vh;
@@ -859,11 +845,7 @@ background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, F
     width: 50%;
     height: 82vh;
     margin-top: 1.8rem;
-
-
-
     }
-
 
     .homeimg {
     width: 60%;
